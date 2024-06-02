@@ -20,3 +20,5 @@ A aplicação inicializará automaticamente na porta 3000 do endereço local
 Com a aplicação iniciada, registre um usuario para usar o sistema
 
 
+OBS: torna-se necessário a utilização de uma chave de API do google, caso não possua pode registrar uma no link a seguir: https://developers.google.com/maps
+
