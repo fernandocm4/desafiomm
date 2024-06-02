@@ -23,9 +23,6 @@ class UserController {
             const { nome, email, password } = req.body;
 
             userdb.findOne({ email: email }, async (err, usuarios) => {
-                /*if(err){
-                    return res.status(500).json({error: `No users with id ${id}`});
-                }*/
                 if (usuarios) {
                     return res.status(500).json({ message: `User ${email} already exists.` });
                 }

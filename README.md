@@ -17,4 +17,6 @@ O servidor irá rodar na porta 5000 do endereço local.
 
 A aplicação inicializará automaticamente na porta 3000 do endereço local
 
+Com a aplicação iniciada, registre um usuario para usar o sistema
+
 

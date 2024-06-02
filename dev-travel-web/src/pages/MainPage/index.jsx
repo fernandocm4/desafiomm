@@ -41,7 +41,6 @@ const MainPage = () => {
         try {
             setLoading(true);
             const response = await getTravels(user?.id, query);
-            const responseOrigins = await getOrigins(user?.id, query);
             setTravels(response.data);
             //setOrigins(responseOrigins.data);
             setLoading(false);
@@ -64,11 +63,6 @@ const MainPage = () => {
         calculaDistancia(origem);
     }
 
-    const handleDeleteOrigin = async (origin) => {
-        await destroyOrigin(user?.id);
-
-        await loadData();
-    }
 
     const handleNewTravel = async (destino, origem) => {
         try {
@@ -188,7 +182,6 @@ const MainPage = () => {
                 onUpTravel={handleUpTravel}
                 onDownTravel={handleDownTravel}
                 onDeleteTravel={handleDeleteTravel}
-                onDeleteOrigin={handleDeleteOrigin}
                 onNewTravel={handleNewTravel}
                 onCalculateDistance={calculaDistancia}>
             </Listtravels>

@@ -3,7 +3,6 @@ import cors from "cors";
 
 import routes from "./routes";
 
-//IMPORTAR O BANCO DE DADOS AQUI
 
 class App{
     constructor(){
