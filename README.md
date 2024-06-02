@@ -1,0 +1,17 @@
+## Deploy
+
+- Clone este repositorio para seu pc
+- Haverá duas pastas, **dev-travel-server** e **dev-travel-web**, usando o terminal entre na pasta do servidor e rode o comando abaixo:
+
+```bash
+  npm run dev
+```
+
+O servidor irá rodar na porta 5000 do endereço local.
+
+- Na outra pasta, usando o terminal rode o seguinte comando:
+```bash
+  npm start
+```
+
+A aplicação inicializará automaticamente na porta 3000 do endereço local
