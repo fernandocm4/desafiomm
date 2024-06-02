@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 860px) {
+
+
+    .nav {
+        background-color: #303030;
+        display: flex;
+        color: white;
+    }
+
+    #main .nav .logo {
+        flex: 1;
+        font-size: 1.5rem;
+        margin: 0;
+        color: white;
+        padding: .5rem;
+    }
+
+    .nav .sair {
+        background-color: #303030;
+        color: white;
+        border: none;
+
+    }
+
+    .nav .sair:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .main-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-title h2 {
+        font-size: 1.5rem;
+    }
+
+    #main .allitens {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+    }
+
+    .allitens .card-travels {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        background-color: #ffffff;
+    }
+
+    .card-travels .distance-info .distances p {
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+
+    .card-travels .params{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #main .card-travels .params input{
+        margin: .3rem;
+        max-width: 400px;
+        
+    }
+
+    
+
+    
+
+
+
+}
+
+
+.nav {
+    background-color: #303030;
+    display: flex;
+    color: white;
+}
+
+.nav .logo {
+    flex: 1;
+    font-size: 1.5rem;
+    margin: 0;
+    color: white;
+    padding: .5rem;
+}
+
+.nav .sair {
+    background-color: #303030;
+    color: white;
+    border: none;
+
+}
+
+.nav .sair:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*#main .card-travels .list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}*/
+
+.allitens {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    justify-content: start;
+}
+
+
+.mapa {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+    width: 100%;
+}
+
+
+.card-travels .buttondestino {
+    background-color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+    display: flex;
+    padding: 15px;
+}
+
+.card-travels .buttondestino:hover {
+    background-color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+
+}
+
+
+
+.card-travels .main-title h2{
+    font-size: 1.5rem;
+}
+
+.card-travels {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    color: rgb(34, 34, 34);
+    padding: 3rem;
+    max-width: 580px;
+    height: 100vh;
+}
+
+.card-travels .list {
+    background-color: #ffffff;
+    color: rgb(34, 34, 34);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    max-height: 600px;
+    
+
+}
+
+
+.card-travels .list .info {
+    flex: 1;
+    display: flex;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    align-items: center;
+    padding-left: 15px;
+    
+}
+
+
+.card-travels .list .remove {
+    background-color: white;
+    border: none;
+    color: rgb(102, 102, 102);
+}
+
+.card-travels .list .remove:hover {
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.card-travels .list .info-buttons {
+    display: flex;
+    align-items: center;
+
+}
+
+.card-travels .list .info-buttons button {
+    background-color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.card-travels .list .info-buttons button:hover {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.card-travels .list .item {
+    display: flex;
+    flex-direction: row;
+    padding: .5rem;
+    border-bottom: 1px solid #a8a8a8;  
+}
+
+.card-travels .params {
+    background-color: #ffffff;
+    margin: 0;
+    padding: .5rem;
+    border-top: 1px solid #a8a8a8;
+    border-bottom: 1px solid #a8a8a8;
+
+}
+
+.card-travels .params input {
+    padding: .5rem;
+    margin: 0;
+    min-width: 220px;
+    min-height: 35px;
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+
+}
+
+.card-travels .distance-info .distances {
+    border-bottom: 1px solid #a8a8a8;
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1rem;
+}
+
+
+
+.card-travels .new {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card-travels .new button {
+    margin: 0;
+}
+
+.card-travels .origem button {
+    margin: 0;
+}
+
+.card-travels .origem {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+.mapa .map-params {
+    margin: 0;
+}
