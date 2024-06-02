@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import MainPage from "./pages/MainPage";
+import RegisterPage from "./pages/RegisterPage";
 
 const AppRoutes = () => {
     const Private = ({children}) => {
@@ -28,6 +29,8 @@ const AppRoutes = () => {
                         element={<LoginPage></LoginPage>}></Route>
                     <Route exact path="/"
                         element={<Private><h1><MainPage/></h1></Private>}></Route>
+                        <Route exact path="/register"
+                        element={<RegisterPage/>}></Route>
 
                 </Routes>
             </AuthProvider>

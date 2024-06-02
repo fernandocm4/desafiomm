@@ -1,0 +1,38 @@
+.nao-possui-conta button{
+    border: none;
+}
+
+.nao-possui-conta button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+#register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#register .form{
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 480px;
+    padding: .5rem;
+}
+
+#register .field label{
+    display: block;
+}
+
+#register .field input{
+    width: 100%;
+}
+
+#register .actions{
+    text-align: right;
+    margin-top: 1rem;
+}

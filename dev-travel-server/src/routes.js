@@ -12,12 +12,13 @@ import AutocompleteController from "./controllers/AutocompleteController";
 const routes = new Router();
 
 routes.post('/sessions', SessionsController.create);
+routes.post('/users', UserController.create);
 
 routes.use(auth);
 
 //routes.get('/teste', TesteController.index);
 routes.get('/users', UserController.index);
-routes.post('/users', UserController.create);
+
 routes.get('/users/:id', UserController.show);
 routes.put('/users/:id', UserController.update);
 routes.delete('/users/:id', UserController.remove);
